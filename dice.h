@@ -9,9 +9,9 @@ class Dice
         int die1; // Value on second die
 
     public:
-        Dice();
-        int get_die0();
-        int get_die1();
-        int get_total(); // Get the total value of both dice
+        Dice() { roll(); }
+        int get_die0() const;
+        int get_die1() const;
+        int get_total() const; // Get the total value of both dice
         void roll(); // Roll the dice
 };
