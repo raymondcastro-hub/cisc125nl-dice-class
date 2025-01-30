@@ -11,6 +11,6 @@ class Dice
         void roll(); // Roll the dice
 
     private:
-    int die0; // Value on first die
-    int die1; // Value on second die
+        int die0; // Value on first die
+        int die1; // Value on second die
 };
