@@ -5,8 +5,9 @@
 using namespace std;
 
 Dice::Dice () {
-    die0 = rand() % 6 + 1;
-    die1 = rand() % 6 + 1;
+    // die0 = rand() % 6 + 1;
+    // die1 = rand() % 6 + 1;
+    roll();
 }
 
 int Dice::get_die0 () const {

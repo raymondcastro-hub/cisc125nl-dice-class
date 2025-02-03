@@ -13,8 +13,8 @@ int main () {
 	Dice mydice;
 	Dice myotherdice;
 
-	mydice.roll();
-	myotherdice.roll();
+	// mydice.roll();
+	// myotherdice.roll();
 
 	cout << mydice.get_die0() << " " << mydice.get_die1()
 		 << " " << mydice.get_total() << endl;
