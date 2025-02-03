@@ -10,11 +10,15 @@ Dice::Dice () {
     roll();
 }
 
-int Dice::get_die0 () const {
+int Dice::get_die0() const {
     return die0;
 }
 
-int Dice::get_die1 () const {
+int Dice::get_die1() const {
+    return die1;
+}
+
+int Dice::get_total() const {
     return die0 + die1;
 }
 
